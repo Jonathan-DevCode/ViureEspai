@@ -1,0 +1,43 @@
+.presentation {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.size {
+    margin-top: 4rem;
+}
+
+.size h1 {
+    font-size: 3rem;
+}
+
+.size p {
+    margin-top: 0.8rem;
+    font-size: 2rem;
+}
+
+.schedule {
+    padding: 0.8rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    background-color: #0288d1;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: 0 0.7rem 0.5rem 0.5rem var(--p);
+}
+
+.logoImg {
+    height: 50vh;
+    width: 30vw;
+    margin-left: 5rem;
+}
+
+span {
+    margin-left: auto;
+}
+
+.provider {
+    margin-left: 10rem;
+}

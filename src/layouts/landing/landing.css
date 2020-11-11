@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--medium);
+    box-shadow: 0 2rem 1rem var(--dark);
+}
+
+.first {
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 25vh;
+    width: 100vw;
+    background-color: var(--darker);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.second h3 {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.second p {
+    font-size: 1.5rem;
+}
+
+.icons {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    background-color: var(--dark);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.achievements {
+    position: relative;
+    width: 40%;
+
+}
+
+.acvHeader {
+    margin-top: 3rem;
+}
+
+.acvDescription {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.acvRight {
+    margin-left: 7rem;
+}
+
+.video {
+    margin-top: 1rem;
+    width: 40%;
+    text-align: center;
+    src: local("../../assets/video/alan.mp4");
+}
+
+.video .icons {
+    margin-left: 1.8rem;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 25vh;
+    width: 100vw;
+    background-color: var(--darker);
+    background-size: cover;
+    background-attachment: fixed;
+}

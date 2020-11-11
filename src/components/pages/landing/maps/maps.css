@@ -1,0 +1,13 @@
+.google {
+    width: 30vw;
+    height: 100%;
+    border:0;
+    border-radius: 2%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .format {
+        display: none;
+        padding: 0;
+    }
+}
