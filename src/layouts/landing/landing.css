@@ -1,4 +1,4 @@
-header {
+.nav {
     display: flex;
     justify-content: center;
     background-color: var(--medium);
@@ -25,15 +25,6 @@ header {
     background-attachment: fixed;
 }
 
-.second h3 {
-    margin-top: 3rem;
-    font-size: 2rem;
-}
-
-.second p {
-    font-size: 1.5rem;
-}
-
 .icons {
     font-size: 3rem;
     margin-top: 1rem;
@@ -54,10 +45,6 @@ header {
     position: relative;
     width: 40%;
 
-}
-
-.acvHeader {
-    margin-top: 3rem;
 }
 
 .acvDescription {
@@ -83,10 +70,28 @@ header {
 .fourth {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    height: 25vh;
-    width: 100vw;
+    align-items: center;
     background-color: var(--darker);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.other {
+    display: flex;
+    text-align: initial;
+    width: 80%;
+    height: 100%;
+}
+
+.lanData {
+    margin-left: 3rem;
+}
+
+.lanMaps , .lanData {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 50%;
+    height: 40vh;
 }

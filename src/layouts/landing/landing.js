@@ -1,6 +1,4 @@
 import React from 'react';
-import { IconContext } from "react-icons";
-import { FaInstagram, FaFacebookSquare, FaWhatsapp, FaSplotch, FaSpa } from 'react-icons/fa'; 
 
 import './landing.css';
 
@@ -8,38 +6,37 @@ import Nav from '../../components/pages/landing/nav/nav';
 import Presentation from '../../components/pages/landing/presentation/presentation';
 import Portait from '../../components/utilities/portait/portait';
 import Social from "../../components/utilities/social/social";
-import Maps from '../../components/pages/landing/maps/maps';
-
+import Maps from '../../components/utilities/maps/maps';
+import Datapicker from '../../components/utilities/datapicker/datapicker';
 import variable from '../../data/achievements';
+import Transition from '../../components/utilities/transition/transition';
 
 class Landing extends React.Component {
 
     render() {
-        console.log({variable})
         return(
             <div className="landing">
 
 
                 <div className="first">
-                    <header>
+                    <div className="nav">
                         <Nav />
-                    </header>
+                    </div>
                     <Presentation />
                 </div>
 
                 <div className="second">
-                        <h3> Quer saber mais? </h3>
-                        <p> Nos acompanhe nas redes sociais e fique por dentro de tudo </p>
+                        <Transition value={{h3: "Tire suas duvidas", p: "Veja como chegar ou agende sua consulta"}} />
                         <Social />
                 </div>
                 
                 <div className="third">
-                    
+        
                     <div className="achievements">
-                        <div className="acvHeader">
-                            <h3> Qualificações </h3>
-                            <p> Alguns programas e referências </p>
-                        </div>
+
+                        <h3 style={{ marginTop: "2rem"}} > Qualificações </h3>
+                        <p> Alguns programas e referências </p>
+
                         <div className="acvDescription">
                             <div>
                                 <Portait value={variable[0]} />
@@ -60,12 +57,15 @@ class Landing extends React.Component {
                 </div>
 
                 <div className="fourth">
-                    <div>
-                        <div className="card">
-                            maps
+                        
+                        <Transition value={{h3: "Tire suas duvidas", p: "Veja como chegar ou agende sua consulta"}} />
+
+                    <div className="other">
+                        <div className="lanMaps">
+                            <Maps />
                         </div>
-                        <div className="card">
-                            datas
+                        <div className="lanData">
+                            <Datapicker />
                         </div>
                     </div>
                 </div>  

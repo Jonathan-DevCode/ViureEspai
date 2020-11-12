@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { FaMeteor, FaStar, FaSplotch, FaFire, FaCrown, FaGlobe} from "react-icons/fa";
+import { FaMeteor, FaStar, FaFire, FaCrown, FaGlobe} from "react-icons/fa";
 
 import "./achievements.css";
 
